@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  RATwitter
+//
+//  Created by Dmitriy Dmitriev on 14.02.16.
+//  Copyright © 2016 Dmitriy Dmitriev. All rights reserved.
+//
+
+#include "Common.xcconfig"
+#include "Pods/Target Support Files/Pods/Pods.release.xcconfig"
+
+COPY_PHASE_STRIP = YES
+GCC_OPTIMIZATION_LEVEL = s

@@ -1,0 +1,19 @@
+//
+//  Common.xcconfig
+//  RATwitter
+//
+//  Created by Dmitriy Dmitriev on 13.02.16.
+//  Copyright © 2016 Dmitriy Dmitriev. All rights reserved.
+//
+
+ARCHS = arm64 armv7
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+TARGETED_DEVICE_FAMILY = 1
+
+DEAD_CODE_STRIPPING = YES
+GCC_TREAT_WARNINGS_AS_ERRORS = YES
+
+PRODUCT_NAME = RATwitter
+PRODUCT_BUNDLE_IDENTIFIER = com.ddmitriev.ratwitter
+PRODUCT_VERSION = 1.0
+PRODUCT_VERSION_APPLE = 1.0.0

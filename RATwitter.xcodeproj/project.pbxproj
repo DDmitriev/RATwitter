@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C61CFCF5C42CABEE6A9FC60 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B3D8E22B2C7C63E2691922 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		732E628F1C803A0E0004D500 /* RATFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E628E1C803A0E0004D500 /* RATFeedTableViewCell.m */; };
+		739A6E911C700032001255B8 /* RATTwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6E901C700032001255B8 /* RATTwitterService.m */; };
+		739A6E961C7000F1001255B8 /* RATNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6E951C7000F1001255B8 /* RATNetworking.m */; };
+		739A6E9A1C700BC4001255B8 /* RATTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6E991C700BC4001255B8 /* RATTweet.m */; };
+		739A6E9D1C700E32001255B8 /* RATImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6E9C1C700E32001255B8 /* RATImageService.m */; };
+		739A6EA51C7012FB001255B8 /* RATFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EA41C7012FB001255B8 /* RATFeed.m */; };
+		739A6EA81C701F26001255B8 /* RATFeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EA71C701F26001255B8 /* RATFeedViewModel.m */; };
+		739A6EAB1C701F39001255B8 /* RATTweetViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EAA1C701F39001255B8 /* RATTweetViewModel.m */; };
+		739A6EAE1C7020C1001255B8 /* RATServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EAD1C7020C1001255B8 /* RATServices.m */; };
+		739A6EB11C702226001255B8 /* RATCommonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EB01C702226001255B8 /* RATCommonViewModel.m */; };
+		739A6EB71C703079001255B8 /* RATUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EB61C703079001255B8 /* RATUser.m */; };
+		739A6EBA1C7036FD001255B8 /* RATFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EB91C7036FD001255B8 /* RATFeedViewController.m */; };
+		739A6EBD1C703901001255B8 /* RATFeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EBC1C703901001255B8 /* RATFeedView.m */; };
+		739A6EC11C703AB1001255B8 /* RATRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EC01C703AB1001255B8 /* RATRouter.m */; };
+		739A6EC71C706AF2001255B8 /* RATInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6EC61C706AF2001255B8 /* RATInterface.m */; };
+		73E927711C6F9663001EB17D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E927701C6F9663001EB17D /* main.m */; };
+		73E9277C1C6F9663001EB17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E9277B1C6F9663001EB17D /* Assets.xcassets */; };
+		73E927981C6F986E001EB17D /* RATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E927971C6F986E001EB17D /* RATAppDelegate.m */; };
+		73E9279F1C6FD845001EB17D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73E927A11C6FD845001EB17D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2680070D5AC7FFEC16D8A5CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		375D1A4AEBF68A231A7294A6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		732E628D1C803A0E0004D500 /* RATFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATFeedTableViewCell.h; sourceTree = "<group>"; };
+		732E628E1C803A0E0004D500 /* RATFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATFeedTableViewCell.m; sourceTree = "<group>"; };
+		739A6E8F1C700032001255B8 /* RATTwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATTwitterService.h; sourceTree = "<group>"; };
+		739A6E901C700032001255B8 /* RATTwitterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATTwitterService.m; sourceTree = "<group>"; };
+		739A6E931C70007C001255B8 /* RATTwitterServiceInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATTwitterServiceInterface.h; sourceTree = "<group>"; };
+		739A6E941C7000F1001255B8 /* RATNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATNetworking.h; sourceTree = "<group>"; };
+		739A6E951C7000F1001255B8 /* RATNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATNetworking.m; sourceTree = "<group>"; };
+		739A6E981C700BC4001255B8 /* RATTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATTweet.h; sourceTree = "<group>"; };
+		739A6E991C700BC4001255B8 /* RATTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATTweet.m; sourceTree = "<group>"; };
+		739A6E9B1C700E32001255B8 /* RATImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATImageService.h; sourceTree = "<group>"; };
+		739A6E9C1C700E32001255B8 /* RATImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATImageService.m; sourceTree = "<group>"; };
+		739A6EA11C700E69001255B8 /* RATImageServiceInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RATImageServiceInterface.h; sourceTree = "<group>"; };
+		739A6EA31C7012FB001255B8 /* RATFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATFeed.h; sourceTree = "<group>"; };
+		739A6EA41C7012FB001255B8 /* RATFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATFeed.m; sourceTree = "<group>"; };
+		739A6EA61C701F26001255B8 /* RATFeedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATFeedViewModel.h; sourceTree = "<group>"; };
+		739A6EA71C701F26001255B8 /* RATFeedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATFeedViewModel.m; sourceTree = "<group>"; };
+		739A6EA91C701F39001255B8 /* RATTweetViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATTweetViewModel.h; sourceTree = "<group>"; };
+		739A6EAA1C701F39001255B8 /* RATTweetViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATTweetViewModel.m; sourceTree = "<group>"; };
+		739A6EAC1C7020C1001255B8 /* RATServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATServices.h; sourceTree = "<group>"; };
+		739A6EAD1C7020C1001255B8 /* RATServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATServices.m; sourceTree = "<group>"; };
+		739A6EAF1C702226001255B8 /* RATCommonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATCommonViewModel.h; sourceTree = "<group>"; };
+		739A6EB01C702226001255B8 /* RATCommonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATCommonViewModel.m; sourceTree = "<group>"; };
+		739A6EB51C703079001255B8 /* RATUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATUser.h; sourceTree = "<group>"; };
+		739A6EB61C703079001255B8 /* RATUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATUser.m; sourceTree = "<group>"; };
+		739A6EB81C7036FD001255B8 /* RATFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATFeedViewController.h; sourceTree = "<group>"; };
+		739A6EB91C7036FD001255B8 /* RATFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATFeedViewController.m; sourceTree = "<group>"; };
+		739A6EBB1C703901001255B8 /* RATFeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATFeedView.h; sourceTree = "<group>"; };
+		739A6EBC1C703901001255B8 /* RATFeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATFeedView.m; sourceTree = "<group>"; };
+		739A6EBF1C703AB1001255B8 /* RATRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATRouter.h; sourceTree = "<group>"; };
+		739A6EC01C703AB1001255B8 /* RATRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATRouter.m; sourceTree = "<group>"; };
+		739A6EC51C706AF2001255B8 /* RATInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATInterface.h; sourceTree = "<group>"; };
+		739A6EC61C706AF2001255B8 /* RATInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATInterface.m; sourceTree = "<group>"; };
+		73E9276C1C6F9663001EB17D /* RATwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RATwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E927701C6F9663001EB17D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73E9277B1C6F9663001EB17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73E927801C6F9663001EB17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E927951C6F9790001EB17D /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		73E927961C6F986E001EB17D /* RATAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATAppDelegate.h; sourceTree = "<group>"; };
+		73E927971C6F986E001EB17D /* RATAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATAppDelegate.m; sourceTree = "<group>"; };
+		73E9279B1C6FD6EA001EB17D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		73E9279C1C6FD6F9001EB17D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		73E927A41C6FD882001EB17D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E4B3D8E22B2C7C63E2691922 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E927691C6F9663001EB17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C61CFCF5C42CABEE6A9FC60 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586449DDD6BD9AF60469BE03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375D1A4AEBF68A231A7294A6 /* Pods.debug.xcconfig */,
+				2680070D5AC7FFEC16D8A5CB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		702790C91D5D1034F5FFBB31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B3D8E22B2C7C63E2691922 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		739A6E8B1C6FFEF6001255B8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EAC1C7020C1001255B8 /* RATServices.h */,
+				739A6EAD1C7020C1001255B8 /* RATServices.m */,
+				739A6E9B1C700E32001255B8 /* RATImageService.h */,
+				739A6E9C1C700E32001255B8 /* RATImageService.m */,
+				739A6EA11C700E69001255B8 /* RATImageServiceInterface.h */,
+				739A6E8F1C700032001255B8 /* RATTwitterService.h */,
+				739A6E901C700032001255B8 /* RATTwitterService.m */,
+				739A6E931C70007C001255B8 /* RATTwitterServiceInterface.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		739A6E971C700BA9001255B8 /* DMO */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EA31C7012FB001255B8 /* RATFeed.h */,
+				739A6EA41C7012FB001255B8 /* RATFeed.m */,
+				739A6E981C700BC4001255B8 /* RATTweet.h */,
+				739A6E991C700BC4001255B8 /* RATTweet.m */,
+				739A6EB51C703079001255B8 /* RATUser.h */,
+				739A6EB61C703079001255B8 /* RATUser.m */,
+			);
+			path = DMO;
+			sourceTree = "<group>";
+		};
+		739A6EBE1C703A5C001255B8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EBF1C703AB1001255B8 /* RATRouter.h */,
+				739A6EC01C703AB1001255B8 /* RATRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		739A6EC81C706B9D001255B8 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EC51C706AF2001255B8 /* RATInterface.h */,
+				739A6EC61C706AF2001255B8 /* RATInterface.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		73E927631C6F9663001EB17D = {
+			isa = PBXGroup;
+			children = (
+				73E927861C6F976D001EB17D /* Configurations */,
+				73E9278A1C6F976D001EB17D /* Sources */,
+				73E927871C6F976D001EB17D /* Resources */,
+				702790C91D5D1034F5FFBB31 /* Frameworks */,
+				586449DDD6BD9AF60469BE03 /* Pods */,
+				73E9276D1C6F9663001EB17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E9276D1C6F9663001EB17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E9276C1C6F9663001EB17D /* RATwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E927861C6F976D001EB17D /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				73E927951C6F9790001EB17D /* Common.xcconfig */,
+				73E9279B1C6FD6EA001EB17D /* Debug.xcconfig */,
+				73E9279C1C6FD6F9001EB17D /* Release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		73E927871C6F976D001EB17D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73E927881C6F976D001EB17D /* Application */,
+				73E927891C6F976D001EB17D /* InfoPlists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73E927881C6F976D001EB17D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				73E9277B1C6F9663001EB17D /* Assets.xcassets */,
+				73E927A11C6FD845001EB17D /* Localizable.strings */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		73E927891C6F976D001EB17D /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				73E927801C6F9663001EB17D /* Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		73E9278A1C6F976D001EB17D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				73E9278E1C6F976D001EB17D /* Main */,
+				73E9278B1C6F976D001EB17D /* Application */,
+				73E9278D1C6F976D001EB17D /* Common */,
+				73E9278F1C6F976D001EB17D /* Model */,
+				73E927941C6F976D001EB17D /* ViewModel */,
+				73E927931C6F976D001EB17D /* ViewController */,
+				73E927921C6F976D001EB17D /* View */,
+				739A6EBE1C703A5C001255B8 /* Router */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		73E9278B1C6F976D001EB17D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				73E927961C6F986E001EB17D /* RATAppDelegate.h */,
+				73E927971C6F986E001EB17D /* RATAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		73E9278C1C6F976D001EB17D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				732E628D1C803A0E0004D500 /* RATFeedTableViewCell.h */,
+				732E628E1C803A0E0004D500 /* RATFeedTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		73E9278D1C6F976D001EB17D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		73E9278E1C6F976D001EB17D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				73E927701C6F9663001EB17D /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		73E9278F1C6F976D001EB17D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73E927901C6F976D001EB17D /* Networking */,
+				739A6E8B1C6FFEF6001255B8 /* Services */,
+				739A6E971C700BA9001255B8 /* DMO */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E927901C6F976D001EB17D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				739A6E941C7000F1001255B8 /* RATNetworking.h */,
+				739A6E951C7000F1001255B8 /* RATNetworking.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		73E927921C6F976D001EB17D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EC81C706B9D001255B8 /* Style */,
+				73E9278C1C6F976D001EB17D /* Cell */,
+				739A6EBB1C703901001255B8 /* RATFeedView.h */,
+				739A6EBC1C703901001255B8 /* RATFeedView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E927931C6F976D001EB17D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EB81C7036FD001255B8 /* RATFeedViewController.h */,
+				739A6EB91C7036FD001255B8 /* RATFeedViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		73E927941C6F976D001EB17D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				739A6EAF1C702226001255B8 /* RATCommonViewModel.h */,
+				739A6EB01C702226001255B8 /* RATCommonViewModel.m */,
+				739A6EA61C701F26001255B8 /* RATFeedViewModel.h */,
+				739A6EA71C701F26001255B8 /* RATFeedViewModel.m */,
+				739A6EA91C701F39001255B8 /* RATTweetViewModel.h */,
+				739A6EAA1C701F39001255B8 /* RATTweetViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73E9276B1C6F9663001EB17D /* RATwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E927831C6F9663001EB17D /* Build configuration list for PBXNativeTarget "RATwitter" */;
+			buildPhases = (
+				09A89E40579AD47E231D2BE5 /* Check Pods Manifest.lock */,
+				73E927681C6F9663001EB17D /* Sources */,
+				73E927691C6F9663001EB17D /* Frameworks */,
+				73E9276A1C6F9663001EB17D /* Resources */,
+				DD841FE7C9698037B577C4B7 /* Embed Pods Frameworks */,
+				D76099839FAF8DDE10B11DEE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RATwitter;
+			productName = RATwitter;
+			productReference = 73E9276C1C6F9663001EB17D /* RATwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E927641C6F9663001EB17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dmitriy Dmitriev";
+				TargetAttributes = {
+					73E9276B1C6F9663001EB17D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 73E927671C6F9663001EB17D /* Build configuration list for PBXProject "RATwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E927631C6F9663001EB17D;
+			productRefGroup = 73E9276D1C6F9663001EB17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E9276B1C6F9663001EB17D /* RATwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E9276A1C6F9663001EB17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E9277C1C6F9663001EB17D /* Assets.xcassets in Resources */,
+				73E9279F1C6FD845001EB17D /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A89E40579AD47E231D2BE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D76099839FAF8DDE10B11DEE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD841FE7C9698037B577C4B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E927681C6F9663001EB17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739A6EC71C706AF2001255B8 /* RATInterface.m in Sources */,
+				73E927981C6F986E001EB17D /* RATAppDelegate.m in Sources */,
+				739A6E961C7000F1001255B8 /* RATNetworking.m in Sources */,
+				739A6E911C700032001255B8 /* RATTwitterService.m in Sources */,
+				739A6E9D1C700E32001255B8 /* RATImageService.m in Sources */,
+				739A6EB11C702226001255B8 /* RATCommonViewModel.m in Sources */,
+				739A6EBA1C7036FD001255B8 /* RATFeedViewController.m in Sources */,
+				739A6EAB1C701F39001255B8 /* RATTweetViewModel.m in Sources */,
+				739A6EB71C703079001255B8 /* RATUser.m in Sources */,
+				739A6EA81C701F26001255B8 /* RATFeedViewModel.m in Sources */,
+				739A6E9A1C700BC4001255B8 /* RATTweet.m in Sources */,
+				739A6EAE1C7020C1001255B8 /* RATServices.m in Sources */,
+				739A6EC11C703AB1001255B8 /* RATRouter.m in Sources */,
+				73E927711C6F9663001EB17D /* main.m in Sources */,
+				739A6EBD1C703901001255B8 /* RATFeedView.m in Sources */,
+				739A6EA51C7012FB001255B8 /* RATFeed.m in Sources */,
+				732E628F1C803A0E0004D500 /* RATFeedTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73E927A11C6FD845001EB17D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73E927A41C6FD882001EB17D /* en */,
+			);
+			name = Localizable.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73E927811C6F9663001EB17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73E927821C6F9663001EB17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73E927841C6F9663001EB17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E9279B1C6FD6EA001EB17D /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/InfoPlists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			};
+			name = Debug;
+		};
+		73E927851C6F9663001EB17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E9279C1C6FD6F9001EB17D /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/InfoPlists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E927671C6F9663001EB17D /* Build configuration list for PBXProject "RATwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E927811C6F9663001EB17D /* Debug */,
+				73E927821C6F9663001EB17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E927831C6F9663001EB17D /* Build configuration list for PBXNativeTarget "RATwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E927841C6F9663001EB17D /* Debug */,
+				73E927851C6F9663001EB17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E927641C6F9663001EB17D /* Project object */;
+}
