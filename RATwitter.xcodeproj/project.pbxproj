@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C61CFCF5C42CABEE6A9FC60 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B3D8E22B2C7C63E2691922 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		02DEB36CE96BB466D5366C7E /* Pods_RATwitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEB30376A2887DA1B2F8BB2 /* Pods_RATwitter.framework */; };
 		732E628F1C803A0E0004D500 /* RATFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E628E1C803A0E0004D500 /* RATFeedTableViewCell.m */; };
 		739A6E911C700032001255B8 /* RATTwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6E901C700032001255B8 /* RATTwitterService.m */; };
 		739A6E961C7000F1001255B8 /* RATNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 739A6E951C7000F1001255B8 /* RATNetworking.m */; };
@@ -30,8 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2680070D5AC7FFEC16D8A5CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		375D1A4AEBF68A231A7294A6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		732E628D1C803A0E0004D500 /* RATFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATFeedTableViewCell.h; sourceTree = "<group>"; };
 		732E628E1C803A0E0004D500 /* RATFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATFeedTableViewCell.m; sourceTree = "<group>"; };
 		739A6E8F1C700032001255B8 /* RATTwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATTwitterService.h; sourceTree = "<group>"; };
@@ -74,6 +72,7 @@
 		73E9279B1C6FD6EA001EB17D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		73E9279C1C6FD6F9001EB17D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		73E927A41C6FD882001EB17D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8FEB30376A2887DA1B2F8BB2 /* Pods_RATwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RATwitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B3D8E22B2C7C63E2691922 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,26 +81,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C61CFCF5C42CABEE6A9FC60 /* Pods.framework in Frameworks */,
+				02DEB36CE96BB466D5366C7E /* Pods_RATwitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		586449DDD6BD9AF60469BE03 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				375D1A4AEBF68A231A7294A6 /* Pods.debug.xcconfig */,
-				2680070D5AC7FFEC16D8A5CB /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		702790C91D5D1034F5FFBB31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E4B3D8E22B2C7C63E2691922 /* Pods.framework */,
+				8FEB30376A2887DA1B2F8BB2 /* Pods_RATwitter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,8 +150,8 @@
 				73E9278A1C6F976D001EB17D /* Sources */,
 				73E927871C6F976D001EB17D /* Resources */,
 				702790C91D5D1034F5FFBB31 /* Frameworks */,
-				586449DDD6BD9AF60469BE03 /* Pods */,
 				73E9276D1C6F9663001EB17D /* Products */,
+				ED1594474AED49B7FDE4BC2A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -308,6 +299,13 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		ED1594474AED49B7FDE4BC2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,12 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E927831C6F9663001EB17D /* Build configuration list for PBXNativeTarget "RATwitter" */;
 			buildPhases = (
-				09A89E40579AD47E231D2BE5 /* Check Pods Manifest.lock */,
+				B2771E798E1EF6DD028B15DA /* [CP] Check Pods Manifest.lock */,
 				73E927681C6F9663001EB17D /* Sources */,
 				73E927691C6F9663001EB17D /* Frameworks */,
 				73E9276A1C6F9663001EB17D /* Resources */,
-				DD841FE7C9698037B577C4B7 /* Embed Pods Frameworks */,
-				D76099839FAF8DDE10B11DEE /* Copy Pods Resources */,
+				1B79F77AF52E356CD85A72CA /* [CP] Embed Pods Frameworks */,
+				18430B5A5FCBB9192754AF25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,49 +374,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09A89E40579AD47E231D2BE5 /* Check Pods Manifest.lock */ = {
+		18430B5A5FCBB9192754AF25 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RATwitter/Pods-RATwitter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D76099839FAF8DDE10B11DEE /* Copy Pods Resources */ = {
+		1B79F77AF52E356CD85A72CA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RATwitter/Pods-RATwitter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD841FE7C9698037B577C4B7 /* Embed Pods Frameworks */ = {
+		B2771E798E1EF6DD028B15DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

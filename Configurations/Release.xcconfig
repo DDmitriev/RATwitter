@@ -7,7 +7,7 @@
 //
 
 #include "Common.xcconfig"
-#include "Pods/Target Support Files/Pods/Pods.release.xcconfig"
+#include "Pods/Target Support Files/Pods-RATwitter/Pods-RATwitter.release.xcconfig"
 
 COPY_PHASE_STRIP = YES
 GCC_OPTIMIZATION_LEVEL = s

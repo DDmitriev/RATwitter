@@ -7,7 +7,6 @@
 //
 
 #import "RATFeedView.h"
-#import <Masonry/Masonry.h>
 
 @interface RATFeedView ()
 
