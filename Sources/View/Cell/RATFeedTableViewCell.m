@@ -120,14 +120,14 @@ static void *RATFTVCContext = &RATFTVCContext;
     
     [self.authorLabel mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.contentView).mas_offset(yOffset);
-        make.left.mas_equalTo(self.contentView).mas_offset(xOffset);
-        make.right.mas_equalTo(self.contentView).mas_offset(-xOffset);
+        make.leading.mas_equalTo(self.contentView).mas_offset(xOffset);
+        make.trailing.mas_equalTo(self.contentView).mas_offset(-xOffset);
     }];
     
     [self.bodyLabel mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.authorLabel.mas_bottom).mas_offset(yOffset);
-        make.left.mas_equalTo(self.contentView).mas_offset(xOffset);
-        make.right.mas_equalTo(self.contentView).mas_offset(-xOffset);
+        make.leading.mas_equalTo(self.contentView).mas_offset(xOffset);
+        make.trailing.mas_equalTo(self.contentView).mas_offset(-xOffset);
     }];
 
     [self.mediaView mas_remakeConstraints:^(MASConstraintMaker *make) {
@@ -138,8 +138,8 @@ static void *RATFTVCContext = &RATFTVCContext;
 
     [self.dateLabel mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.mediaView.mas_bottom).mas_offset(yOffset);
-        make.left.mas_equalTo(self.contentView).mas_offset(xOffset);
-        make.right.mas_equalTo(self.contentView).mas_offset(-xOffset);
+        make.leading.mas_equalTo(self.contentView).mas_offset(xOffset);
+        make.trailing.mas_equalTo(self.contentView).mas_offset(-xOffset);
         make.bottom.mas_equalTo(self.contentView).mas_offset(-yOffset);
     }];
 }
