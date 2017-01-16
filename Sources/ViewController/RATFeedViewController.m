@@ -149,8 +149,9 @@ static void *RATFVCContext = &RATFVCContext;
 
 - (void)didInvalidateLayoutInCell:(RATFeedTableViewCell *)cell forTweetVM:(RATTweetViewModel *)tweetVM
 {
-    // We need to initiate layout recalculation
-    [self p_reloadData];
+    NSInteger row = [_feedVM.tweetViewModels indexOfObject:tweetVM];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:row inSection:0];
+    [_feedView.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
 }
 
 #pragma mark - Notifications

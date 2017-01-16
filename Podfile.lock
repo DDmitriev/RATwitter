@@ -1,14 +1,17 @@
 PODS:
+  - Masonry (1.0.2)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
 
 DEPENDENCIES:
+  - Masonry (= 1.0.2)
   - SDWebImage (= 3.7.5)
 
 SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
 
-PODFILE CHECKSUM: d764b48fb744551662fb889f5aa8beea3b0ec841
+PODFILE CHECKSUM: b8a662874b71eabd097ba204500fb4bf6cea0d81
 
 COCOAPODS: 1.1.1
